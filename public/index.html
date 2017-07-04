@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Timestamp Microservice</title>
+  <style>
+    body{
+      font: 1em Arial,sans-serif;
+    }
+
+    .wrapper {
+      max-width: 500px;
+      margin: auto; padding: 1rem;
+      border: 5px solid #ccc;
+    }
+
+    h1 {
+      margin-top: 0;
+      text-align: center;
+    }
+
+    pre {
+      color: tomato;
+      background-color: #eee;
+      padding: .5rem;
+    }
+
+  </style>
+</head>
+<body>
+<div class="wrapper">
+  <h1>Timestamp Microservice</h1>
+
+  <h3>Example usage:</h3>
+  <code><pre>https://timestamp-ms.herokuapp.com/December%2015,%202015
+https://timestamp-ms.herokuapp.com/1450137600</pre></code>
+  <h3>Example output:</h3>
+  <code><pre>{ "unix": 1450137600, "natural": "December 15, 2015" }</pre></code>
+  </div>
+</body>
+</html>
